@@ -1,0 +1,38 @@
+/* Write your code here. */
+.gallery-app-container {
+  max-width: 800px;
+  padding: 35px;
+  margin: auto;
+}
+.gallery-image {
+  border: 1px solid transparent;
+  border-radius: 20px;
+  width: 100%;
+}
+.gallery-app-heading {
+  font-family: 'Roboto';
+  font-size: 35px;
+  color: #1e293b;
+}
+@media screen and (min-width: 768px) {
+  .gallery-app-heading {
+    font-size: 28px;
+  }
+}
+.gallery-app-tagline {
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 600;
+  color: #1e293b;
+}
+@media screen and (min-width: 768px) {
+  .gallery-app-tagline {
+    font-size: 20px;
+  }
+}
+.gallery-thumbnails-list {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+}

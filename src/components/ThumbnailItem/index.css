@@ -1,0 +1,18 @@
+/* Write your code here. */
+.thumbnail-list-item {
+  margin: 15px;
+}
+.thumbnail-image {
+  opacity: 0.5;
+}
+.selected-thumbnail {
+  opacity: 1;
+}
+
+.thumbnail-button {
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+  padding: 0;
+  border: none;
+}
